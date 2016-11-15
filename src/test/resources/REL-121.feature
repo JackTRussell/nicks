@@ -1,4 +1,4 @@
-@ST_14799 @121tag
+@ST_17288 @121tag
 Feature: FeatOther Activities
 and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here and some description is here
 
@@ -9,24 +9,24 @@ And the boss increases the salary for the employee with id 5 by 7%
 And the salary management system is initialized with the following data
 And new string
 
-@SC_62126
+@SC_72701
 Scenario: Books and edit
 Given the customer searches for books published between 8 and 18
 Then Book 9 should have the title 'Harry Potter'
 
-@SC_62127 @121Scen @scenTag
+@SC_72702 @121Scen @scenTag
 Scenario: scenar name
 scenar name's description
 Given i want do smth with "work"
 Then want i do "good"
 And i want do smth with "this"
 
-@SC_62128
+@SC_72703
 Scenario: Another scenario
 Given i want do smth with "work"
 Then want i do "good"
 
-@SC_62129
+@SC_72704
 Scenario Outline: Scenario Four
 Given the payroll for the employee with id 4 should display a salary of 9
 And the boss increases the salary for the employee with id 5 by 8%
@@ -38,37 +38,37 @@ Examples:
 |ivanov|5|
 
 
-@SC_62130
+@SC_72705
 Scenario: Books search
 When I enter book's name
 And click Search
 Then I get the result in a table
 
-@SC_62131
+@SC_72706
 Scenario: Books search
 When I enter book's name
 And click Search
 Then I get the result in a table
 
-@SC_62132
+@SC_72707
 Scenario: Books search
 When I enter book's name
 And click Search
 Then I get the result in a table
 
-@SC_62133
+@SC_72708
 Scenario: Books search
 When I enter book's name
 And click Search
 Then I get the result in a table
 
-@SC_62134
+@SC_72709
 Scenario: Books search
 When I enter book's name
 And click Search
 Then I get the result in a table
 
-@SC_62135
+@SC_72710
 Scenario: Books search
 When I enter book's name
 And click Search

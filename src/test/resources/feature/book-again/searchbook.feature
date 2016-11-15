@@ -1,4 +1,4 @@
-@ST_14800
+@ST_17291
 Feature: Book search1
   To allow a customer to find his favourite books quickly, the library must offer multiple ways to search for a book.
 
@@ -7,22 +7,22 @@ Background:
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@SC_62137
+@SC_72714
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@SC_62138
+@SC_72715
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@SC_62139
+@SC_72716
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18
 
-@SC_62140
+@SC_72717
 Scenario: Search books by publication year
 Given a book with the title 'One good book', written by 'Anonymous', published in 14 March 2013
 And another book with the title 'Some other book', written by 'Tim Tomson', published in 23 August 2014
@@ -33,7 +33,7 @@ And Book 1 should have the title 'Some other book'
 And Book 2 should have the title 'One good book'
 Then i want do smth with "smth"
 
-@SC_62141
+@SC_72718
 Scenario Outline: ET: a few rows in a cell
 Given a new scenario created for a testing purposes to test a few rows in a single cell
 Then add a scenario step to create a table 1
@@ -44,7 +44,7 @@ Examples:
 |Adding a new row with a row that's located on a separate row. It was created to test it.And what can we see here?Okay. Let's go.asdasdasdasddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd|
 
 
-@SC_62142
+@SC_72719
 Scenario Outline: 
 Given a new scenario created for a testing purposes to test a few rows in a single cell
 Then add a scenario step to create a table 1
@@ -55,7 +55,7 @@ Examples:
 ||
 
 
-@SC_62143
+@SC_72720
 Scenario Outline: 
 Given a new scenario created for a testing purposes to test a few rows in a single cell
 Then add a scenario step to create a table 1
@@ -66,7 +66,7 @@ Examples:
 ||
 
 
-@SC_62144
+@SC_72721
 Scenario Outline: 
 Given a new scenario created for a testing purposes to test a few rows in a single cell
 Then add a scenario step to create a table 1
@@ -77,7 +77,7 @@ Examples:
 ||
 
 
-@SC_62145
+@SC_72722
 Scenario Outline: 
 Given a new scenario created for a testing purposes to test a few rows in a single cell
 Then add a scenario step to create a table 1
@@ -88,7 +88,7 @@ Examples:
 ||
 
 
-@SC_62146
+@SC_72723
 Scenario Outline: 
 Given a new scenario created for a testing purposes to test a few rows in a single cell
 Then add a scenario step to create a table 1
@@ -99,7 +99,7 @@ Examples:
 ||
 
 
-@SC_62147
+@SC_72724
 Scenario Outline: 
 Given a new scenario created for a testing purposes to test a few rows in a single cell
 Then add a scenario step to create a table 1
@@ -110,7 +110,7 @@ Examples:
 ||
 
 
-@SC_62148
+@SC_72725
 Scenario Outline: 
 Given a new scenario created for a testing purposes to test a few rows in a single cell
 Then add a scenario step to create a table 1
@@ -121,7 +121,7 @@ Examples:
 ||
 
 
-@SC_62149
+@SC_72726
 Scenario: 
 Given a $100 microwave was sold on 2015-11-03
 And today is 2015-11-18

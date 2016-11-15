@@ -1,7 +1,7 @@
-@ST_14806
+@ST_17297
 Feature: Yes
 
-@SC_62160
+@SC_72737
 Scenario: Jira one
 Given First step
 Then second step
