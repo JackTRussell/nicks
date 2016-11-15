@@ -1,13 +1,15 @@
+@ST_17304
 Feature: Examples without a name
 
-Scenario Outline:
+@SC_72743
+Scenario Outline: 
 Given I am signed in Relime
 And I have a domain created
 And I have a project created
 When I open a project and invite subscribers <First Name> <Last Name> <Email>
 Then I see a notification about successful invitation
 
-Examples:
+Examples: 
 |First Name|Last Name|Email|
 |Nick|Oliver|oliver@mail.com|
 |Oliver|Oliver|oliver.o@mail.com|
